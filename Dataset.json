@@ -1,0 +1,138 @@
+{
+    "supply_sites": [
+        "SUP1",
+        "SUP2",
+        "SUP3",
+        "SUP4",
+        "SUP5",
+        "SUP6",
+        "SUP7",
+        "SUP8",
+        "SUP9",
+        "SUP10"
+    ],
+    "demand_sites": [
+        "DEM1",
+        "DEM2",
+        "DEM3",
+        "DEM4",
+        "DEM5",
+        "DEM6",
+        "DEM7",
+        "DEM8",
+        "DEM9",
+        "DEM10"
+    ],
+    "inventory": {
+        "SUP1": 5,
+        "SUP2": 7,
+        "SUP3": 16,
+        "SUP4": 9,
+        "SUP5": 18,
+        "SUP6": 11,
+        "SUP7": 17,
+        "SUP8": 9,
+        "SUP9": 18,
+        "SUP10": 20
+    },
+    "demand": {
+        "DEM1": 11,
+        "DEM2": 3,
+        "DEM3": 11,
+        "DEM4": 4,
+        "DEM5": 5,
+        "DEM6": 10,
+        "DEM7": 11,
+        "DEM8": 10,
+        "DEM9": 10,
+        "DEM10": 6
+    },
+    "allowed_routes": {
+        "SUP1": [
+            "DEM8",
+            "DEM10",
+            "DEM5",
+            "DEM1"
+        ],
+        "SUP2": [
+            "DEM10",
+            "DEM7",
+            "DEM6",
+            "DEM5"
+        ],
+        "SUP3": [
+            "DEM3",
+            "DEM6",
+            "DEM4",
+            "DEM1"
+        ],
+        "SUP4": [
+            "DEM4",
+            "DEM2"
+        ],
+        "SUP5": [
+            "DEM6",
+            "DEM2",
+            "DEM8",
+            "DEM5"
+        ],
+        "SUP6": [
+            "DEM3",
+            "DEM1"
+        ],
+        "SUP7": [
+            "DEM10",
+            "DEM5",
+            "DEM2"
+        ],
+        "SUP8": [
+            "DEM6",
+            "DEM7",
+            "DEM5"
+        ],
+        "SUP9": [
+            "DEM9",
+            "DEM10",
+            "DEM3"
+        ],
+        "SUP10": [
+            "DEM2",
+            "DEM8",
+            "DEM1"
+        ]
+    },
+    "transport_cost": {
+        "('SUP1', 'DEM8')": 3,
+        "('SUP1', 'DEM10')": 9,
+        "('SUP1', 'DEM5')": 3,
+        "('SUP1', 'DEM1')": 5,
+        "('SUP2', 'DEM10')": 11,
+        "('SUP2', 'DEM7')": 12,
+        "('SUP2', 'DEM6')": 8,
+        "('SUP2', 'DEM5')": 14,
+        "('SUP3', 'DEM3')": 1,
+        "('SUP3', 'DEM6')": 10,
+        "('SUP3', 'DEM4')": 5,
+        "('SUP3', 'DEM1')": 8,
+        "('SUP4', 'DEM4')": 1,
+        "('SUP4', 'DEM2')": 7,
+        "('SUP5', 'DEM6')": 5,
+        "('SUP5', 'DEM2')": 5,
+        "('SUP5', 'DEM8')": 9,
+        "('SUP5', 'DEM5')": 9,
+        "('SUP6', 'DEM3')": 6,
+        "('SUP6', 'DEM1')": 2,
+        "('SUP7', 'DEM10')": 6,
+        "('SUP7', 'DEM5')": 15,
+        "('SUP7', 'DEM2')": 4,
+        "('SUP8', 'DEM6')": 12,
+        "('SUP8', 'DEM7')": 10,
+        "('SUP8', 'DEM5')": 7,
+        "('SUP9', 'DEM9')": 7,
+        "('SUP9', 'DEM10')": 13,
+        "('SUP9', 'DEM3')": 13,
+        "('SUP10', 'DEM2')": 3,
+        "('SUP10', 'DEM8')": 12,
+        "('SUP10', 'DEM1')": 9
+    }
+}
